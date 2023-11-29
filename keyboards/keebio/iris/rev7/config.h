@@ -67,3 +67,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #        define RGB_DISABLE_WHEN_USB_SUSPENDED
 #        define RGB_MATRIX_KEYPRESSES
 //#    endif
+//# On macOS, Command+` is by default mapped to “Move focus to next window”. This is overwriting this shortcut.
+#    define GRAVE_ESC_GUI_OVERRIDE
+
